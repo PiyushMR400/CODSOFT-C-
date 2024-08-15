@@ -10,6 +10,7 @@ char mark = 'X';
 int player = 1;
 
 int main(){
+    cout<<"start game";
     int input, status = -1;
     print();
     
@@ -45,7 +46,7 @@ int main(){
 void print() {
     system("cls");
     cout << "\n\n";
-    cout << "TIC TAC TOE GAME\n";
+    
     cout << "  |  |  \n";
     cout << " " << board[1] << " | " << board[2] << " | " << board[3] << "\n";
     cout << "  |  |  \n";
